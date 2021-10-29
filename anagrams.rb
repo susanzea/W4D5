@@ -32,6 +32,7 @@ end
 def third_anagram?(str_1, str_2)
     str_1.chars.sort == str_2.chars.sort # O(nlogn)
 end
+
 # p third_anagram?("abc", "cba") #true
 # p third_anagram?("twooo","words") #false
 
